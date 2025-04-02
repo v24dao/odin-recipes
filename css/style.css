@@ -2,14 +2,22 @@
     font-family: 'Poppins';
     background-color: #1a1a1a;
     color: #f8f9fa;
-    /* text-align: center; */
+    /* border: 1px solid grey; */
 }
 
 .container {
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
+    /* border: 2px solid green; */
 }
 
+.home-container {
+    text-align: center;
+}
+.odin-logo {
+    display: block;
+    margin: 50px auto 20px;
+}
 h1 {
     text-decoration: underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,4 +27,17 @@ h1 {
 h1,
 h2 {
     text-decoration: underline;
+}
+
+.recipe-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #f8f9fa;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.recipe-btn:hover {
+    background-color: grey;
 }
